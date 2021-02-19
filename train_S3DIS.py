@@ -142,7 +142,8 @@ class S3DISConfig(Config):
     #####################
 
     # Maximal number of epochs
-    max_epoch = 500
+    # max_epoch = 500
+    max_epoch = 250
 
     # Learning rate management
     learning_rate = 1e-2
@@ -151,10 +152,12 @@ class S3DISConfig(Config):
     grad_clip_norm = 100.0
 
     # Number of batch
-    batch_num = 6
+    # batch_num = 6
+    batch_num = 30
 
     # Number of steps per epochs
-    epoch_steps = 500
+    # epoch_steps = 500
+    epoch_steps = 100
 
     # Number of validation examples per epoch
     validation_size = 50
