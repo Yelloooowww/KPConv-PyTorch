@@ -60,7 +60,7 @@ class S3DISConfig(Config):
 
     # Number of CPU threads for the input pipeline
     # input_threads = 10
-    input_threads = 1
+    input_threads = 0
 
     #########################
     # Architecture definition
